@@ -2,80 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirBnB Clone - Task 4</title>
+    <title>AirBnB clone</title>
+    <link rel="icon" href="images/icon.png"/>
     <link rel="stylesheet" href="styles/4-common.css">
-    <link rel="stylesheet" href="styles/3-header.css">
     <link rel="stylesheet" href="styles/3-footer.css">
-    <link rel="stylesheet" href="styles/4-filters.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/4-filters.css"/>
 </head>
 <body>
-    <header>
-        <h1>AirBnB Clone</h1>
-    </header>
 
+    <header>
+        <div class="logo"></div>
+    </header>
     <div class="container">
         <section class="filters">
-            <button class="search-button">Search</button>
+            <button>Search</button>
         </section>
     </div>
-
     <footer>
-        <p>Best School</p>
+        Best School
     </footer>
+
 </body>
 </html>
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #484848;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 30px auto;
-    text-align: center;
-}
-
-<!-- styles/4-filters.css -->
-.filters {
-    color: white;
-    height: 70px;
-    width: 100%;
-    border: 1px solid #DDDDDD;
-    border-radius: 4px;
-}
-
-.search-button {
-    font-size: 18px;
-    background-color: #FF5A5F;
-    color: #FFFFFF;
-    height: 48px;
-    width: 20%;
-    border: none;
-    border-radius: 4px;
-    margin-right: 30px;
-    margin-top: 10px;
-    opacity: 0.9;
-}
-
-.search-button:hover {
-    opacity: 1;
-}
-
-footer {
-    color: white;
-    height: 60px;
-    width: 100%;
-    border-top: 1px solid #CCCCCC;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-}
-
-footer p {
-    line-height: 60px;
-}
